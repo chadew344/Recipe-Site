@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feast at Home</title>
+    <link rel="stylesheet" href="/style/recipePageStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lobster&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 style="font-family: Edu AU VIC WA NT Pre, serif; font-size: 30px">
+        Feast at Home
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/recipe-pages/recipe2.html">Recipe</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h4>GET IN TOUCH — Share Your Thought About Us</h4>
+        <br />
+
+        <form action="/contact-form" method="post">
+          <div>
+            <label for="submitter-name">Your Name*</label>
+            <br />
+            <input
+              type="text"
+              name="submitter-name"
+              id="submitter-name"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="submitter-email">Your Email*</label>
+            <br />
+            <input
+              type="text"
+              name="submitter-email"
+              id="submitter-email"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="subject">Subject*</label>
+            <br />
+            <input type="text" name="subject" id="subject" required />
+          </div>
+          <br />
+          <div>
+            <label for="subject">Message*</label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              style="width: 600px; height: 100px"
+            ></textarea>
+          </div>
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <br /><br />
+    </main>
+
+    <br />
+    <footer>
+      <p>&copy; 2025 Feast at Home. All rights reserved.</p>
+      <nav>
+        <a href="/pages/privacypolicy.html">Privacy Policy</a> |
+        <a href="/pages/termsofservice.html">Terms of Service</a> |
+        <a href="/pages/contactus.html">Contact Us</a>
+      </nav>
+    </footer>
+  </body>
+</html>
